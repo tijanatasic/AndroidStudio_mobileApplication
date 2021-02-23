@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".IksOks">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+
+        <TextView
+            android:id="@+id/igrac1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Igrač 1:0"
+            android:textColor="@color/white"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/igrac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Igrač 2:0"
+            android:textColor="@color/white"
+            android:textSize="22sp"></TextView>
+
+        <Button
+            android:id="@+id/resetuj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Resetuj"
+            android:background="@drawable/btn_login"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_margin="10dp"
+            android:background="@drawable/btniks"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"></Button>
+
+        <Button
+            android:id="@+id/button01"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/btniks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"></Button>
+
+        <Button
+            android:id="@+id/button02"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/btniks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/button10"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/btniks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"></Button>
+        <Button
+            android:id="@+id/button11"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/btniks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"></Button>
+        <Button
+            android:id="@+id/button12"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/btniks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/button20"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/btniks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"></Button>
+        <Button
+            android:id="@+id/button21"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/btniks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"></Button>
+        <Button
+            android:id="@+id/button22"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/btniks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/pozadina"
+    tools:context=".RezultatCatchTheBall">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER!"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/ljub"></TextView>
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textSize="40dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/ljub"></TextView>
+
+    <TextView
+        android:id="@+id/high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High score : 300"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/ljub"></TextView>
+
+    <Button
+        android:id="@+id/opet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btniks"
+        android:onClick="tryAgain"
+        android:text="Igraj opet"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"></Button>
+    <Button
+        android:id="@+id/izadji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Izađi"
+        android:textAllCaps="false"
+        android:onClick="tryAgain"
+        android:textSize="15dp"
+        android:background="@drawable/btniks"
+        android:textColor="@color/white"></Button>
+
+</LinearLayout>

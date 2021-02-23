@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#564999</color>
+    <color name="colorPrimaryDark">#564999</color>
+    <color name="teget">#0844E2</color>
+    <color name="purple">#564999</color>
+    <color name="blue">#59b7e0</color>
+    <color name="white">#ffffff</color>
+    <color name="ljub">#9385BB</color>
+    <color name="zelena">#C8C9BA3A</color>
+    <color name="tamnazelena">#009688</color>
+    <color name="tamnazelena1">#018073</color>
+
+</resources>
